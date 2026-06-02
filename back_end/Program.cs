@@ -23,13 +23,6 @@ SensorPressao sensorPressao = new("Pressão");
 
 // Armazenar em uma classe
 
-LeituraSensores leitura = new()
-{
-    temperatura = sensorTemperatura.GerarValor(),
-    umidade = sensorUmidade.GerarValor(),
-    pressao = sensorPressao.GerarValor(),
-};
-
 // // // // // //
 
 // Publicar mensagem
@@ -38,6 +31,13 @@ MqttPublisher publisher = new(client);
 
 while (true)
 {
+    LeituraSensores leitura = new()
+    {
+        temperatura = sensorTemperatura.GerarValor(),
+        umidade = sensorUmidade.GerarValor(),
+        pressao = sensorPressao.GerarValor(),
+    };
+
     await publisher.PublicarMensagem(leitura);
     await Task.Delay(5000);
 }
