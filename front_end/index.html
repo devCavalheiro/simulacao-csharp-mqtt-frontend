@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simu MQTT</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="status">Desconectado</h1>
+    </header>
+    <main>
+      <div class="card">
+        <h1>Temperatura</h1>
+        <p id="temperatura">--</p>
+      </div>
+      <div class="card">
+        <h1>Umidade</h1>
+        <p id="umidade">--</p>
+      </div>
+      <div class="card">
+        <h1>Pressão</h1>
+        <p id="pressao">--</p>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("simulacao-csharp-mqtt-frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab4a1799df80e6d00914d4e69cb41757a663e80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41a659965dc71a781264a40834914787f1fe596f")]
 [assembly: System.Reflection.AssemblyProductAttribute("simulacao-csharp-mqtt-frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("simulacao-csharp-mqtt-frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
